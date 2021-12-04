@@ -1,0 +1,63 @@
+Checklist:
+
+Adding listing, and removing projects:
+
+-   GET requests to "/" redirects the user to /projects. x
+
+-   GET request to /projects shows a form that can be used to add projects, and a list of existing projects. x
+ 
+- The form shown at /projects has a text input field with the attribute name that is used to input the name of a new project.
+    Submitting the form is done with a POST request to the path /projects. x
+
+- Adding a new project with the form at /projects uses the POST/Redirect/GET -pattern. 
+    After creating a new project, users are redirected to /projects. x
+
+-In the list of existing projects, shown for a GET request to /projects, each project is a link to a project-specific page. 
+    The links are structured as /projects/{id}, where {id} corresponds to the database id of the specific project. x
+
+- In the list of existing projects, shown for a GET request to /projects, next or below to each project is a submit button with the text Remove. 
+    The button is within a form; clicking the button makes a POST request to /projects/{id}, where {id} corresponds to the database id of the associated project.
+    This removes the project, after which the user is redirected to /projects.  x 
+
+
+Viewing an individual project
+
+- GET request to /projects/{id}, where {id} corresponds to the database id of a project, shows a project-specific page. x
+
+- The project-specific page shows the name of the project, a form for adding issues to the project, and a list of existing issues for the project.x
+
+
+Adding issues
+
+- The form for adding issues, shown when making a GET request to /projects/{id}, has a text input field with the attribute description that is used to input the description of the issue. x
+- The form for adding issues is submitted using a POST request to the path /projects/{id}/issues, where {id} corresponds to the database id of the specific project. x
+- Adding an issue uses the POST/Redirect/GET -pattern. After an issue has been added, the user is redirected to the path /projects/{id}, where {id} corresponds to the database id of the specific project. x
+
+Listing and resolving issues
+
+- The project-specific page, shown when making a GET request to /projects/{id} shows a list of existing issues (in addition to the name of the project and the form used for creating issues). x
+- For each listed issue, the description of the issue is shown. x
+- Next to the description, or after the description, a submit button with the text Resolve issue is shown. x
+- The Resolve issue button is inside a form, which, when submitted, makes a POST request to /projects/{id}/issues/{issue_id}, where {id} corresponds to the database id of the specific project and {issue_id} to the database id of the specific issue. x
+- A POST request to /projects/{id}/issues/{issue_id} resolves the issue by removing it from the database. After the issue has been resolved, the user is redirected to the path /projects/{id}, where {id} corresponds to the database id of the specific project. x
+
+Database
+
+- Real database credentials are not included in the submission code. x
+- Database uses a connection pool. x
+
+Views
+
+- Views are stored in a separate folder.x
+- User interface uses a layout.x
+
+
+Running, deployment and documentation
+
+- By default, when the application is launched using app.js, the application launches on the port 7777.x
+- Application is available and working in an online location (e.g. Heroku) at an address provided in the documentation.
+- Application can be run locally following the guidelines in documentation.
+
+Usability
+
+- The application feels intuitive to use. x

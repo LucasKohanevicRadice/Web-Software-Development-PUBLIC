@@ -1,0 +1,101 @@
+<% /* A chat application */ %>
+
+<% /* <h1>SpeakEasy</h1>
+
+<form method="POST">
+  <input type="text" name="sender" />
+  <input type="text" name="message" />
+  <input type="submit" value="send message"/>
+  </form>
+
+  <ul>
+
+    <%it.messages.forEach((message) => { %>
+    <li>
+    <%= message.sender %>: <%= message.message %>
+    </li>  
+  <% }) %>
+  </ul> */ %>
+
+ 
+
+
+
+
+<% /* error handling */ %>
+
+<% /* <h1>Animals!</h1>
+<form method="POST">
+  <input type="text" name="name" />
+  <input type="submit" value="Submit!" />
+</form>
+<ul>
+  <% it.animals.forEach((animal) => { %>
+    <li>
+      <%= animal.name %>
+      <form method='POST' action='/animals/<%= animal.id %>/delete'>
+        <input type='submit' value='Delete' />
+      </form>
+    </li>
+  <% }); %>
+</ul> */ %>
+
+<% /* Creating, listing and deleting songs and their ratings */ %>
+
+<% /* <h1>Songs!</h1>
+<form method="POST">
+  <input type="text" name="name" />
+  <input type="number" name="rating" />
+  <input type="submit" value="Submit!" />
+</form>
+
+<table>
+  <tr>
+    <th>Song name</th>
+    <th>Rating</th>
+    <th>Delete</th>
+  </tr>
+  <!-- insert songs here -->
+  
+  <% it.songs.forEach((song) => { %>
+  <tr>
+  <td><%= song.name%></td>
+  <td><%= song.rating%></td>
+  <td>  
+  <form method="POST" action="/songs/<%= song.id %>/delete">
+  <input type="submit" value="Delete" />
+  </form> 
+  </td>
+
+  </tr>
+  <% }) %>
+  
+
+</table> */ %>
+
+
+
+Restructuring and deleting
+
+<h1>Names!</h1>
+<form method="POST">
+  <input type="text" name="name" />
+  <input type="submit" value="Submit!" />
+</form>
+
+<ul>
+  <% it.names.forEach((obj) => { %>
+    <li>
+    <%= obj.name %>
+    <form method="POST" action="/names/<%= obj.id %>/delete">
+    <input type="submit" value="Delete" />
+    </form>
+    </li>
+  <% }); %>
+</ul>
+
+<% /* Average measurement */ %>
+
+<% /* <h1>Analysis</h1>
+
+<%= it.content%> */ %>

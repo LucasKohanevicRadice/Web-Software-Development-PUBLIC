@@ -1,0 +1,88 @@
+<% /* testing saving */ %>
+
+<h1>Ticketing system</h1>
+
+<form method="POST" action="/tickets">
+    <input type="text" name="content"/>
+    <input type="submit" value="add a ticket" />
+</form>
+<ul>
+<% it.tickets.forEach((obj) => {%>
+
+    <% if (obj.resolved_on !== null) { %>
+
+    <li>R <%= obj.id%>: <%= obj.content%>
+
+        <form method ="POST" action ="tickets/<%= obj.id%>/resolve">
+        <input type="submit" value="resolve"/></form>
+
+        <form method="POST" action="tickets/<%= obj.id%>/delete">
+        <input type="submit" value="delete"/></form></li>
+    
+    <% } else { %>
+
+    <li>N <%= obj.id%>: <%= obj.content%>
+    
+    <form method ="POST" action ="tickets/<%= obj.id%>/resolve">
+    <input type="submit" value="resolve"/></form>
+    
+    <form method="POST" action="tickets/<%= obj.id%>/delete">
+    <input type="submit" value="delete"/></form></li>
+    <% } %>
+
+<% }) %>    
+</ul>
+
+
+<% /*  content in a story */ %>
+<% /* 
+<h1>Story time!</h1>
+<form method='POST' action='/'>
+    Name: <input type='text' name='name' /><br/>
+    Emotion: <input type='text' name='emotion' /><br/>
+    <input type='submit' value='Submit' />
+</form>
+<p>
+    Waking up, <%= it.person%> felt <%= it.emotion%>. <%= it.person%> had spent most of the previous evening with friends, and recalled that they were writing an application. <%= it.person%> had an inkling that the application had something to do with brainwaves, but simply could not recall what. The feeling, being <%= it.emotion%>, must have had something to do with the application.
+</p> */ %>
+
+<% /* The sum of two submitted numbers */ %>
+
+<% /* <h1>Hello form</h1>
+<form method='POST' action='/'>
+    <input type='number' name='first' />
+    <input type='number' name='second' />
+    <input type='submit' value='Submit' />
+</form> */ %>
+
+
+<% /* Showing submitted content */ %>
+
+<% /* <h1>Hello form</h1>
+<form method='POST' action='/'>
+    <input type='text' name='content' />
+    <input type='submit' value='Submit' />
+</form> */ %>
+
+
+<% /* Path variables in a story */ %>
+
+<% /* <h1>Story time!</h1>
+<p>
+Waking up, 
+<%= it.person%> felt <%= it.feeling%>. 
+<%= it.person%> had spent most of the previous evening with friends, 
+and recalled that they were writing an application. 
+<%= it.person%> had an inkling that the application had something to do with brainwaves, 
+but simply could not recall what. 
+The feeling, being <%= it.feeling%>, 
+must have had something to do with the application.
+</p> */ %>
+
+<% /* Fixing a bug */ %>
+
+<% /* <h1>Hello <%= it.name %>!</h1> */ %>
+
+<% /* Changing text */ %>
+
+<% /* <h1><%= it.message %></h1> */ %>

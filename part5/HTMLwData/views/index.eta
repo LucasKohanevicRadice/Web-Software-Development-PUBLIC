@@ -1,0 +1,88 @@
+<% /* layouts */ %>
+<% /* <% layout("./layouts/layout.eta")%>
+<p>Hello world!</p>
+<a href="/about">Click</a> */ %>
+
+
+
+<% /* A list of TODOs */ %>
+<% /* <h1>TODOs</h1>
+
+<ul>
+<% it.todos.forEach((task) => { %>
+<li><%= task.task%> (<%=task.bool%>)</li>
+<%})%>
+</ul> */ %>
+
+
+<% /* Names and ages */ %>
+
+<% /* It seems that atleast with eta files, there always needs to be a header. */ %>
+
+<% /* <h1>Some emperors</h1>
+
+<ul>
+  <% it.emperors.forEach((emperor) => { %>
+    <li><%= emperor.name %> (<%= emperor.yearOfBirth%>)</li>
+    <% }) %>
+</ul> */ %>
+
+
+
+<% /* Request method as a list */ %>
+
+<% /* <ul>
+<% it.methods.forEach((method)=> { %>
+  <li> <%= method %></li>
+  <% })%>
+</ul> */ %>
+
+
+<% /* Fixing a loop */ %>
+
+<% /* <h1>Vegetables!</h1>
+
+<ul>
+  <% it.vegetables.forEach((veggie) => { %>
+    <li> <%= veggie %> kikkeli </li>
+  <% }); %>
+</ul> */ %>
+
+
+<% /* Negative, positive, zero */ %>
+
+<% /* Value for <%= it.object %>: <%= it.value %> <%= it.nepoze %>  */ %>
+
+
+<% /* Hello boss .eta based version */ %>
+
+
+<% /* <% if (it.name === "ADMIN") {%>
+<h1>
+Hello boss!
+</h1>
+<% } else if (it.name === null) {%>
+<h1>
+Hello !
+</h1>
+
+<% } else { %>
+<h1>
+Hello <%= it.name%>!
+</h1>
+<% }%>
+ */ %>
+
+
+
+<% /* Hello boss! JS based version  */ %>
+
+<% /* <h1>Hello <%= it.name %>!</h1> */ %>
+
+
+<% /* Requests to favicon.ico
+<h1>
+  Requests to favicon.ico: <%= it.count %>
+</h1>
+ */ 
+ %>
