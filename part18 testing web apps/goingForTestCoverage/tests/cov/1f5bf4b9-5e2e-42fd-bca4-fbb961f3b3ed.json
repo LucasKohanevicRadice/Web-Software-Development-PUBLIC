@@ -1,0 +1,1546 @@
+{
+  "scriptId": "19",
+  "url": "deno:ext/web/06_streams.js",
+  "functions": [
+    {
+      "functionName": "assert",
+      "ranges": [
+        {
+          "startOffset": 1619,
+          "endOffset": 1733,
+          "count": 64
+        },
+        {
+          "startOffset": 1685,
+          "endOffset": 1729,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 1809,
+          "endOffset": 2008,
+          "count": 9
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "Deferred",
+      "ranges": [
+        {
+          "startOffset": 2015,
+          "endOffset": 2167,
+          "count": 9
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 2065,
+          "endOffset": 2159,
+          "count": 9
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "get promise",
+      "ranges": [
+        {
+          "startOffset": 2206,
+          "endOffset": 2255,
+          "count": 6
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "reject",
+      "ranges": [
+        {
+          "startOffset": 2390,
+          "endOffset": 2582,
+          "count": 1
+        },
+        {
+          "startOffset": 2490,
+          "endOffset": 2515,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "resolve",
+      "ranges": [
+        {
+          "startOffset": 2633,
+          "endOffset": 2825,
+          "count": 6
+        },
+        {
+          "startOffset": 2733,
+          "endOffset": 2758,
+          "count": 1
+        },
+        {
+          "startOffset": 2758,
+          "endOffset": 2824,
+          "count": 5
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "resolvePromiseWith",
+      "ranges": [
+        {
+          "startOffset": 2928,
+          "endOffset": 3021,
+          "count": 7
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 2988,
+          "endOffset": 3015,
+          "count": 7
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "rethrowAssertionErrorRejection",
+      "ranges": [
+        {
+          "startOffset": 3049,
+          "endOffset": 3239,
+          "count": 1
+        },
+        {
+          "startOffset": 3136,
+          "endOffset": 3235,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 3159,
+          "endOffset": 3227,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "setPromiseIsHandledToTrue",
+      "ranges": [
+        {
+          "startOffset": 3282,
+          "endOffset": 3409,
+          "count": 4
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "uponFulfillment",
+      "ranges": [
+        {
+          "startOffset": 4073,
+          "endOffset": 4164,
+          "count": 4
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "uponRejection",
+      "ranges": [
+        {
+          "startOffset": 4344,
+          "endOffset": 4442,
+          "count": 4
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "uponPromise",
+      "ranges": [
+        {
+          "startOffset": 4726,
+          "endOffset": 4936,
+          "count": 10
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "isDetachedBuffer",
+      "ranges": [
+        {
+          "startOffset": 5058,
+          "endOffset": 5124,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "transferArrayBuffer",
+      "ranges": [
+        {
+          "startOffset": 5601,
+          "endOffset": 5875,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "get",
+      "ranges": [
+        {
+          "startOffset": 5765,
+          "endOffset": 5798,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "acquireReadableStreamDefaultReader",
+      "ranges": [
+        {
+          "startOffset": 8867,
+          "endOffset": 8976,
+          "count": 3
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "extractHighWaterMark",
+      "ranges": [
+        {
+          "startOffset": 12680,
+          "endOffset": 13085,
+          "count": 3
+        },
+        {
+          "startOffset": 12812,
+          "endOffset": 12918,
+          "count": 0
+        },
+        {
+          "startOffset": 12920,
+          "endOffset": 13084,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "extractSizeAlgorithm",
+      "ranges": [
+        {
+          "startOffset": 13196,
+          "endOffset": 13539,
+          "count": 2
+        },
+        {
+          "startOffset": 13304,
+          "endOffset": 13538,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "webidl.invokeCallbackFunction.prefix",
+      "ranges": [
+        {
+          "startOffset": 13290,
+          "endOffset": 13297,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 13316,
+          "endOffset": 13534,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "initializeReadableStream",
+      "ranges": [
+        {
+          "startOffset": 14271,
+          "endOffset": 14439,
+          "count": 3
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "isReadableStream",
+      "ranges": [
+        {
+          "startOffset": 16936,
+          "endOffset": 17066,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "isReadableStreamLocked",
+      "ranges": [
+        {
+          "startOffset": 17142,
+          "endOffset": 17271,
+          "count": 10
+        },
+        {
+          "startOffset": 17223,
+          "endOffset": 17250,
+          "count": 4
+        },
+        {
+          "startOffset": 17250,
+          "endOffset": 17270,
+          "count": 6
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "isReadableStreamDefaultReader",
+      "ranges": [
+        {
+          "startOffset": 17368,
+          "endOffset": 17513,
+          "count": 27
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "isReadableStreamBYOBReader",
+      "ranges": [
+        {
+          "startOffset": 17607,
+          "endOffset": 17753,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "isReadableStreamDisturbed",
+      "ranges": [
+        {
+          "startOffset": 17829,
+          "endOffset": 17946,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "readableByteStreamControllerCallPullIfNeeded",
+      "ranges": [
+        {
+          "startOffset": 18837,
+          "endOffset": 19712,
+          "count": 5
+        },
+        {
+          "startOffset": 19005,
+          "endOffset": 19026,
+          "count": 2
+        },
+        {
+          "startOffset": 19026,
+          "endOffset": 19057,
+          "count": 3
+        },
+        {
+          "startOffset": 19057,
+          "endOffset": 19115,
+          "count": 1
+        },
+        {
+          "startOffset": 19115,
+          "endOffset": 19711,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 19380,
+          "endOffset": 19603,
+          "count": 2
+        },
+        {
+          "startOffset": 19466,
+          "endOffset": 19593,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 19613,
+          "endOffset": 19691,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "readableByteStreamControllerClearAlgorithms",
+      "ranges": [
+        {
+          "startOffset": 19803,
+          "endOffset": 19963,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "readableByteStreamControllerClose",
+      "ranges": [
+        {
+          "startOffset": 20821,
+          "endOffset": 21634,
+          "count": 1
+        },
+        {
+          "startOffset": 21035,
+          "endOffset": 21056,
+          "count": 0
+        },
+        {
+          "startOffset": 21098,
+          "endOffset": 21161,
+          "count": 0
+        },
+        {
+          "startOffset": 21214,
+          "endOffset": 21536,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "readableByteStreamControllerEnqueue",
+      "ranges": [
+        {
+          "startOffset": 21740,
+          "endOffset": 24207,
+          "count": 1
+        },
+        {
+          "startOffset": 21994,
+          "endOffset": 22015,
+          "count": 0
+        },
+        {
+          "startOffset": 22105,
+          "endOffset": 22212,
+          "count": 0
+        },
+        {
+          "startOffset": 22324,
+          "endOffset": 22714,
+          "count": 0
+        },
+        {
+          "startOffset": 22890,
+          "endOffset": 23122,
+          "count": 0
+        },
+        {
+          "startOffset": 23235,
+          "endOffset": 23395,
+          "count": 0
+        },
+        {
+          "startOffset": 23615,
+          "endOffset": 24141,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "readableByteStreamControllerGetDesiredSize",
+      "ranges": [
+        {
+          "startOffset": 25564,
+          "endOffset": 25855,
+          "count": 2
+        },
+        {
+          "startOffset": 25706,
+          "endOffset": 25732,
+          "count": 0
+        },
+        {
+          "startOffset": 25761,
+          "endOffset": 25784,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "resetQueue",
+      "ranges": [
+        {
+          "startOffset": 25963,
+          "endOffset": 26063,
+          "count": 3
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "readableByteStreamControllerShouldCallPull",
+      "ranges": [
+        {
+          "startOffset": 26657,
+          "endOffset": 27385,
+          "count": 5
+        },
+        {
+          "startOffset": 26929,
+          "endOffset": 26956,
+          "count": 0
+        },
+        {
+          "startOffset": 27011,
+          "endOffset": 27064,
+          "count": 4
+        },
+        {
+          "startOffset": 27071,
+          "endOffset": 27097,
+          "count": 3
+        },
+        {
+          "startOffset": 27097,
+          "endOffset": 27149,
+          "count": 2
+        },
+        {
+          "startOffset": 27149,
+          "endOffset": 27206,
+          "count": 0
+        },
+        {
+          "startOffset": 27213,
+          "endOffset": 27239,
+          "count": 0
+        },
+        {
+          "startOffset": 27239,
+          "endOffset": 27384,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "readableStreamAddReadRequest",
+      "ranges": [
+        {
+          "startOffset": 27519,
+          "endOffset": 27755,
+          "count": 5
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "readableStreamClose",
+      "ranges": [
+        {
+          "startOffset": 29112,
+          "endOffset": 29786,
+          "count": 2
+        },
+        {
+          "startOffset": 29340,
+          "endOffset": 29361,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "readableStreamDefaultControllerCallPullIfNeeded",
+      "ranges": [
+        {
+          "startOffset": 29856,
+          "endOffset": 30672,
+          "count": 7
+        },
+        {
+          "startOffset": 30052,
+          "endOffset": 30073,
+          "count": 2
+        },
+        {
+          "startOffset": 30073,
+          "endOffset": 30113,
+          "count": 5
+        },
+        {
+          "startOffset": 30113,
+          "endOffset": 30171,
+          "count": 1
+        },
+        {
+          "startOffset": 30171,
+          "endOffset": 30671,
+          "count": 4
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 30348,
+          "endOffset": 30559,
+          "count": 4
+        },
+        {
+          "startOffset": 30435,
+          "endOffset": 30553,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 30593,
+          "endOffset": 30666,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "readableStreamDefaultControllerCanCloseOrEnqueue",
+      "ranges": [
+        {
+          "startOffset": 30774,
+          "endOffset": 31027,
+          "count": 11
+        },
+        {
+          "startOffset": 30990,
+          "endOffset": 31023,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "readableStreamDefaultControllerClearAlgorithms",
+      "ranges": [
+        {
+          "startOffset": 31097,
+          "endOffset": 31312,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "readableStreamDefaultControllerClose",
+      "ranges": [
+        {
+          "startOffset": 31382,
+          "endOffset": 31789,
+          "count": 1
+        },
+        {
+          "startOffset": 31534,
+          "endOffset": 31555,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "readableStreamDefaultControllerEnqueue",
+      "ranges": [
+        {
+          "startOffset": 31925,
+          "endOffset": 32795,
+          "count": 1
+        },
+        {
+          "startOffset": 32086,
+          "endOffset": 32107,
+          "count": 0
+        },
+        {
+          "startOffset": 32332,
+          "endOffset": 32726,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "readableStreamDefaultControllerGetDesiredSize",
+      "ranges": [
+        {
+          "startOffset": 33296,
+          "endOffset": 33590,
+          "count": 1
+        },
+        {
+          "startOffset": 33441,
+          "endOffset": 33467,
+          "count": 0
+        },
+        {
+          "startOffset": 33496,
+          "endOffset": 33519,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "readableStreamDefaultcontrollerShouldCallPull",
+      "ranges": [
+        {
+          "startOffset": 33966,
+          "endOffset": 34599,
+          "count": 7
+        },
+        {
+          "startOffset": 34167,
+          "endOffset": 34194,
+          "count": 0
+        },
+        {
+          "startOffset": 34235,
+          "endOffset": 34262,
+          "count": 2
+        },
+        {
+          "startOffset": 34262,
+          "endOffset": 34362,
+          "count": 5
+        },
+        {
+          "startOffset": 34369,
+          "endOffset": 34395,
+          "count": 4
+        },
+        {
+          "startOffset": 34395,
+          "endOffset": 34577,
+          "count": 1
+        },
+        {
+          "startOffset": 34577,
+          "endOffset": 34598,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "readableByteStreamControllerInvalidateBYOBRequest",
+      "ranges": [
+        {
+          "startOffset": 42327,
+          "endOffset": 42604,
+          "count": 1
+        },
+        {
+          "startOffset": 42464,
+          "endOffset": 42603,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "readableStreamDefaultReaderRead",
+      "ranges": [
+        {
+          "startOffset": 49558,
+          "endOffset": 49998,
+          "count": 5
+        },
+        {
+          "startOffset": 49746,
+          "endOffset": 49785,
+          "count": 0
+        },
+        {
+          "startOffset": 49825,
+          "endOffset": 49884,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "readableStreamFulfillReadRequest",
+      "ranges": [
+        {
+          "startOffset": 51772,
+          "endOffset": 52235,
+          "count": 2
+        },
+        {
+          "startOffset": 52142,
+          "endOffset": 52181,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "readableStreamGetNumReadRequests",
+      "ranges": [
+        {
+          "startOffset": 52554,
+          "endOffset": 52720,
+          "count": 11
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "readableStreamHasBYOBReader",
+      "ranges": [
+        {
+          "startOffset": 52796,
+          "endOffset": 53029,
+          "count": 2
+        },
+        {
+          "startOffset": 52909,
+          "endOffset": 52981,
+          "count": 1
+        },
+        {
+          "startOffset": 52981,
+          "endOffset": 53007,
+          "count": 0
+        },
+        {
+          "startOffset": 53007,
+          "endOffset": 53028,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "readableStreamHasDefaultReader",
+      "ranges": [
+        {
+          "startOffset": 53105,
+          "endOffset": 53344,
+          "count": 21
+        },
+        {
+          "startOffset": 53221,
+          "endOffset": 53248,
+          "count": 1
+        },
+        {
+          "startOffset": 53248,
+          "endOffset": 53322,
+          "count": 20
+        },
+        {
+          "startOffset": 53322,
+          "endOffset": 53343,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "readableStreamReaderGenericInitialize",
+      "ranges": [
+        {
+          "startOffset": 61647,
+          "endOffset": 62239,
+          "count": 3
+        },
+        {
+          "startOffset": 61865,
+          "endOffset": 62235,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "readableStreamReaderGenericRelease",
+      "ranges": [
+        {
+          "startOffset": 62351,
+          "endOffset": 63104,
+          "count": 1
+        },
+        {
+          "startOffset": 62545,
+          "endOffset": 62727,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "setUpReadableByteStreamController",
+      "ranges": [
+        {
+          "startOffset": 76740,
+          "endOffset": 78154,
+          "count": 1
+        },
+        {
+          "startOffset": 77016,
+          "endOffset": 77119,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 77819,
+          "endOffset": 78045,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 78055,
+          "endOffset": 78133,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "setUpReadableByteStreamControllerFromUnderlyingSource",
+      "ranges": [
+        {
+          "startOffset": 78380,
+          "endOffset": 80564,
+          "count": 1
+        },
+        {
+          "startOffset": 78946,
+          "endOffset": 79283,
+          "count": 0
+        },
+        {
+          "startOffset": 80284,
+          "endOffset": 80366,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "startAlgorithm",
+      "ranges": [
+        {
+          "startOffset": 78659,
+          "endOffset": 78674,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "pullAlgorithm",
+      "ranges": [
+        {
+          "startOffset": 78739,
+          "endOffset": 78774,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "cancelAlgorithm",
+      "ranges": [
+        {
+          "startOffset": 78852,
+          "endOffset": 78894,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "startAlgorithm",
+      "ranges": [
+        {
+          "startOffset": 78971,
+          "endOffset": 79276,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "pullAlgorithm",
+      "ranges": [
+        {
+          "startOffset": 79357,
+          "endOffset": 79712,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "cancelAlgorithm",
+      "ranges": [
+        {
+          "startOffset": 79797,
+          "endOffset": 80158,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "setUpReadableStreamDefaultController",
+      "ranges": [
+        {
+          "startOffset": 81037,
+          "endOffset": 82113,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 81823,
+          "endOffset": 82032,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 82034,
+          "endOffset": 82107,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "setUpReadableStreamDefaultControllerFromUnderlyingSource",
+      "ranges": [
+        {
+          "startOffset": 82375,
+          "endOffset": 84390,
+          "count": 2
+        },
+        {
+          "startOffset": 83359,
+          "endOffset": 83748,
+          "count": 0
+        },
+        {
+          "startOffset": 83800,
+          "endOffset": 84197,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "startAlgorithm",
+      "ranges": [
+        {
+          "startOffset": 82688,
+          "endOffset": 82703,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "pullAlgorithm",
+      "ranges": [
+        {
+          "startOffset": 82768,
+          "endOffset": 82803,
+          "count": 4
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "cancelAlgorithm",
+      "ranges": [
+        {
+          "startOffset": 82882,
+          "endOffset": 82917,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "startAlgorithm",
+      "ranges": [
+        {
+          "startOffset": 82994,
+          "endOffset": 83302,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "pullAlgorithm",
+      "ranges": [
+        {
+          "startOffset": 83383,
+          "endOffset": 83741,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "cancelAlgorithm",
+      "ranges": [
+        {
+          "startOffset": 83826,
+          "endOffset": 84190,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "setUpReadableStreamDefaultReader",
+      "ranges": [
+        {
+          "startOffset": 85049,
+          "endOffset": 85307,
+          "count": 3
+        },
+        {
+          "startOffset": 85149,
+          "endOffset": 85212,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "createIteratorResult",
+      "ranges": [
+        {
+          "startOffset": 119599,
+          "endOffset": 119950,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "next",
+      "ranges": [
+        {
+          "startOffset": 120290,
+          "endOffset": 121229,
+          "count": 3
+        },
+        {
+          "startOffset": 120425,
+          "endOffset": 120600,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "chunkSteps",
+      "ranges": [
+        {
+          "startOffset": 120759,
+          "endOffset": 120851,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "closeSteps",
+      "ranges": [
+        {
+          "startOffset": 120861,
+          "endOffset": 121005,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "errorSteps",
+      "ranges": [
+        {
+          "startOffset": 121015,
+          "endOffset": 121123,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 125432,
+          "endOffset": 125733,
+          "count": 3
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "ReadableStream",
+      "ranges": [
+        {
+          "startOffset": 125855,
+          "endOffset": 127574,
+          "count": 3
+        },
+        {
+          "startOffset": 126365,
+          "endOffset": 126407,
+          "count": 0
+        },
+        {
+          "startOffset": 126650,
+          "endOffset": 127172,
+          "count": 1
+        },
+        {
+          "startOffset": 126693,
+          "endOffset": 126843,
+          "count": 0
+        },
+        {
+          "startOffset": 127172,
+          "endOffset": 127568,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "get locked",
+      "ranges": [
+        {
+          "startOffset": 127610,
+          "endOffset": 127723,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getReader",
+      "ranges": [
+        {
+          "startOffset": 128425,
+          "endOffset": 128928,
+          "count": 1
+        },
+        {
+          "startOffset": 128812,
+          "endOffset": 128922,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "values",
+      "ranges": [
+        {
+          "startOffset": 131838,
+          "endOffset": 132416,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 133110,
+          "endOffset": 133244,
+          "count": 3
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "ReadableStreamDefaultReader",
+      "ranges": [
+        {
+          "startOffset": 133296,
+          "endOffset": 133672,
+          "count": 3
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "read",
+      "ranges": [
+        {
+          "startOffset": 133737,
+          "endOffset": 134558,
+          "count": 2
+        },
+        {
+          "startOffset": 133831,
+          "endOffset": 133887,
+          "count": 0
+        },
+        {
+          "startOffset": 133927,
+          "endOffset": 134038,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "chunkSteps",
+      "ranges": [
+        {
+          "startOffset": 134208,
+          "endOffset": 134295,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "closeSteps",
+      "ranges": [
+        {
+          "startOffset": 134305,
+          "endOffset": 134390,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "errorSteps",
+      "ranges": [
+        {
+          "startOffset": 134400,
+          "endOffset": 134454,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "close",
+      "ranges": [
+        {
+          "startOffset": 142988,
+          "endOffset": 143401,
+          "count": 1
+        },
+        {
+          "startOffset": 143104,
+          "endOffset": 143171,
+          "count": 0
+        },
+        {
+          "startOffset": 143220,
+          "endOffset": 143348,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "enqueue",
+      "ranges": [
+        {
+          "startOffset": 143484,
+          "endOffset": 144637,
+          "count": 1
+        },
+        {
+          "startOffset": 143897,
+          "endOffset": 144036,
+          "count": 0
+        },
+        {
+          "startOffset": 144078,
+          "endOffset": 144236,
+          "count": 0
+        },
+        {
+          "startOffset": 144279,
+          "endOffset": 144396,
+          "count": 0
+        },
+        {
+          "startOffset": 144445,
+          "endOffset": 144568,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 145599,
+          "endOffset": 147076,
+          "count": 2
+        },
+        {
+          "startOffset": 145803,
+          "endOffset": 146226,
+          "count": 0
+        },
+        {
+          "startOffset": 146340,
+          "endOffset": 146955,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "close",
+      "ranges": [
+        {
+          "startOffset": 148105,
+          "endOffset": 148402,
+          "count": 1
+        },
+        {
+          "startOffset": 148258,
+          "endOffset": 148346,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "enqueue",
+      "ranges": [
+        {
+          "startOffset": 148471,
+          "endOffset": 148883,
+          "count": 1
+        },
+        {
+          "startOffset": 148730,
+          "endOffset": 148818,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 149784,
+          "endOffset": 150373,
+          "count": 3
+        },
+        {
+          "startOffset": 149879,
+          "endOffset": 150230,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

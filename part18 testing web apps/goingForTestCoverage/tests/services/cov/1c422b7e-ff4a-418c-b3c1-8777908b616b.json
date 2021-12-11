@@ -1,0 +1,17 @@
+{
+  "scriptId": "87",
+  "url": "file:///C:/Users/lucas/Documents/GitHub/Web-software-development/part18%20testing%20web%20apps/goingForTestCoverage/app.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 561,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

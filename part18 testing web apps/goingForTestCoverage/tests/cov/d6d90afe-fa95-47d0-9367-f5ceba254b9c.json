@@ -1,0 +1,28 @@
+{
+  "scriptId": "64",
+  "url": "deno:runtime/js/40_error_stack.js",
+  "functions": [
+    {
+      "functionName": "opFormatFileName",
+      "ranges": [
+        {
+          "startOffset": 253,
+          "endOffset": 351,
+          "count": 32
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "opApplySourceMap",
+      "ranges": [
+        {
+          "startOffset": 355,
+          "endOffset": 580,
+          "count": 32
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

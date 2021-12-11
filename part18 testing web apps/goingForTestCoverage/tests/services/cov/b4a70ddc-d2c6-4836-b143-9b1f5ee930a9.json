@@ -1,0 +1,17 @@
+{
+  "scriptId": "7",
+  "url": "deno:ext/console/01_colors.js",
+  "functions": [
+    {
+      "functionName": "stripColor",
+      "ranges": [
+        {
+          "startOffset": 1567,
+          "endOffset": 1661,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

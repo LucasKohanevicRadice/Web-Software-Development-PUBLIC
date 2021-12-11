@@ -1,0 +1,33 @@
+{
+  "scriptId": "80",
+  "url": "file:///C:/Users/lucas/Documents/GitHub/Web-software-development/part18%20testing%20web%20apps/goingForTestCoverage/tests/helloApi_test.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 463,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 318,
+          "endOffset": 462,
+          "count": 1
+        },
+        {
+          "startOffset": 459,
+          "endOffset": 461,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

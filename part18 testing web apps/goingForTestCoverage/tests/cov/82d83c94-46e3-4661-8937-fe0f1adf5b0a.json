@@ -1,0 +1,28 @@
+{
+  "scriptId": "80",
+  "url": "file:///C:/Users/lucas/Documents/GitHub/Web-software-development/part18%20testing%20web%20apps/goingForTestCoverage/tests/services/helloService_test.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 268,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 202,
+          "endOffset": 265,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

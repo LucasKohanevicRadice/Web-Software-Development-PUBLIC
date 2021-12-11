@@ -1,0 +1,33 @@
+{
+  "scriptId": "87",
+  "url": "file:///C:/Users/lucas/Documents/GitHub/Web-software-development/part18%20testing%20web%20apps/goingForTestCoverage/middlewares/errorMiddleware.js",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 149,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "errorMiddleware",
+      "ranges": [
+        {
+          "startOffset": 24,
+          "endOffset": 118,
+          "count": 1
+        },
+        {
+          "startOffset": 76,
+          "endOffset": 81,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

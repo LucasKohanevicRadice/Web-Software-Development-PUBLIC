@@ -1,0 +1,238 @@
+{
+  "scriptId": "4",
+  "url": "deno:core/01_core.js",
+  "functions": [
+    {
+      "functionName": "setPromise",
+      "ranges": [
+        {
+          "startOffset": 1215,
+          "endOffset": 1593,
+          "count": 13
+        },
+        {
+          "startOffset": 1404,
+          "endOffset": 1522,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getPromise",
+      "ranges": [
+        {
+          "startOffset": 1597,
+          "endOffset": 2074,
+          "count": 11
+        },
+        {
+          "startOffset": 1766,
+          "endOffset": 1906,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "newPromise",
+      "ranges": [
+        {
+          "startOffset": 2078,
+          "endOffset": 2325,
+          "count": 13
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 2159,
+          "endOffset": 2239,
+          "count": 13
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "opresolve",
+      "ranges": [
+        {
+          "startOffset": 2543,
+          "endOffset": 2774,
+          "count": 10
+        },
+        {
+          "startOffset": 2616,
+          "endOffset": 2770,
+          "count": 11
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 2867,
+          "endOffset": 2895,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "unwrapOpResult",
+      "ranges": [
+        {
+          "startOffset": 3149,
+          "endOffset": 3921,
+          "count": 108
+        },
+        {
+          "startOffset": 3265,
+          "endOffset": 3282,
+          "count": 85
+        },
+        {
+          "startOffset": 3284,
+          "endOffset": 3901,
+          "count": 2
+        },
+        {
+          "startOffset": 3438,
+          "endOffset": 3624,
+          "count": 0
+        },
+        {
+          "startOffset": 3715,
+          "endOffset": 3753,
+          "count": 0
+        },
+        {
+          "startOffset": 3901,
+          "endOffset": 3920,
+          "count": 106
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "opAsync",
+      "ranges": [
+        {
+          "startOffset": 3925,
+          "endOffset": 4275,
+          "count": 13
+        },
+        {
+          "startOffset": 4165,
+          "endOffset": 4199,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "opSync",
+      "ranges": [
+        {
+          "startOffset": 4279,
+          "endOffset": 4403,
+          "count": 97
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "resources",
+      "ranges": [
+        {
+          "startOffset": 4407,
+          "endOffset": 4487,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "read",
+      "ranges": [
+        {
+          "startOffset": 4491,
+          "endOffset": 4561,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "close",
+      "ranges": [
+        {
+          "startOffset": 4713,
+          "endOffset": 4767,
+          "count": 7
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "tryClose",
+      "ranges": [
+        {
+          "startOffset": 4771,
+          "endOffset": 4832,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "metrics",
+      "ranges": [
+        {
+          "startOffset": 4916,
+          "endOffset": 5162,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 5085,
+          "endOffset": 5127,
+          "count": 520
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "BadResource",
+      "ranges": [
+        {
+          "startOffset": 5390,
+          "endOffset": 5465,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "Interrupted",
+      "ranges": [
+        {
+          "startOffset": 5511,
+          "endOffset": 5586,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

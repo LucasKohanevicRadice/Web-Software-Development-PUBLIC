@@ -1,0 +1,121 @@
+{
+  "scriptId": "243",
+  "url": "https://jspm.dev/npm:qs@6.10.2/lib/stringify!cjs",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 8913,
+          "count": 1
+        },
+        {
+          "startOffset": 197,
+          "endOffset": 212,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "brackets",
+      "ranges": [
+        {
+          "startOffset": 396,
+          "endOffset": 453,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "indices",
+      "ranges": [
+        {
+          "startOffset": 484,
+          "endOffset": 556,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "repeat",
+      "ranges": [
+        {
+          "startOffset": 568,
+          "endOffset": 616,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "pushToArray",
+      "ranges": [
+        {
+          "startOffset": 737,
+          "endOffset": 843,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "serializeDate",
+      "ranges": [
+        {
+          "startOffset": 1244,
+          "endOffset": 1307,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "isNonNullishPrimitive",
+      "ranges": [
+        {
+          "startOffset": 1389,
+          "endOffset": 1559,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "stringify",
+      "ranges": [
+        {
+          "startOffset": 1598,
+          "endOffset": 4857,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "normalizeStringifyOptions",
+      "ranges": [
+        {
+          "startOffset": 4892,
+          "endOffset": 6983,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "exports",
+      "ranges": [
+        {
+          "startOffset": 6996,
+          "endOffset": 8810,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "scriptId": "179",
+  "url": "https://deno.land/x/media_types@v2.10.1/db.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 480229,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

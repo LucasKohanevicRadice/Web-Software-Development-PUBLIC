@@ -1,0 +1,127 @@
+{
+  "scriptId": "127",
+  "url": "https://deno.land/x/oak@v9.0.1/body.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 28976,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "resolveType",
+      "ranges": [
+        {
+          "startOffset": 453,
+          "endOffset": 1473,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "bodyAsReader",
+      "ranges": [
+        {
+          "startOffset": 1509,
+          "endOffset": 1665,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "bodyAsStream",
+      "ranges": [
+        {
+          "startOffset": 1666,
+          "endOffset": 1780,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 1812,
+          "endOffset": 1893,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "#parse",
+      "ranges": [
+        {
+          "startOffset": 1899,
+          "endOffset": 3050,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "#validateGetArgs",
+      "ranges": [
+        {
+          "startOffset": 3055,
+          "endOffset": 4403,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "#valuePromise",
+      "ranges": [
+        {
+          "startOffset": 4408,
+          "endOffset": 4660,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "RequestBody",
+      "ranges": [
+        {
+          "startOffset": 4665,
+          "endOffset": 4726,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "get",
+      "ranges": [
+        {
+          "startOffset": 4731,
+          "endOffset": 6733,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "has",
+      "ranges": [
+        {
+          "startOffset": 6738,
+          "endOffset": 7075,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}

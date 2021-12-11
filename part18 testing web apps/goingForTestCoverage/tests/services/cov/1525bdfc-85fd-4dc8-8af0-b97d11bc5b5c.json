@@ -1,0 +1,33 @@
+{
+  "scriptId": "12",
+  "url": "deno:ext/web/01_dom_exception.js",
+  "functions": [
+    {
+      "functionName": "<instance_members_initializer>",
+      "ranges": [
+        {
+          "startOffset": 2699,
+          "endOffset": 2743,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "DOMException",
+      "ranges": [
+        {
+          "startOffset": 2750,
+          "endOffset": 3740,
+          "count": 2
+        },
+        {
+          "startOffset": 3149,
+          "endOffset": 3153,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

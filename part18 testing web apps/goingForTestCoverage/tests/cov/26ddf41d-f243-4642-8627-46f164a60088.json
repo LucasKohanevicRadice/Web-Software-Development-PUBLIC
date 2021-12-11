@@ -1,0 +1,155 @@
+{
+  "scriptId": "242",
+  "url": "https://jspm.dev/npm:fast-safe-stringify@2.1.1!cjs",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 6049,
+          "count": 1
+        },
+        {
+          "startOffset": 61,
+          "endOffset": 106,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "defaultOptions",
+      "ranges": [
+        {
+          "startOffset": 389,
+          "endOffset": 515,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "stringify",
+      "ranges": [
+        {
+          "startOffset": 539,
+          "endOffset": 1280,
+          "count": 1
+        },
+        {
+          "startOffset": 832,
+          "endOffset": 917,
+          "count": 0
+        },
+        {
+          "startOffset": 922,
+          "endOffset": 1035,
+          "count": 0
+        },
+        {
+          "startOffset": 1075,
+          "endOffset": 1259,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "setReplace",
+      "ranges": [
+        {
+          "startOffset": 1282,
+          "endOffset": 1755,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "decirc",
+      "ranges": [
+        {
+          "startOffset": 1757,
+          "endOffset": 2832,
+          "count": 2
+        },
+        {
+          "startOffset": 1879,
+          "endOffset": 1894,
+          "count": 1
+        },
+        {
+          "startOffset": 1896,
+          "endOffset": 2830,
+          "count": 1
+        },
+        {
+          "startOffset": 1937,
+          "endOffset": 2057,
+          "count": 0
+        },
+        {
+          "startOffset": 2140,
+          "endOffset": 2215,
+          "count": 0
+        },
+        {
+          "startOffset": 2306,
+          "endOffset": 2381,
+          "count": 0
+        },
+        {
+          "startOffset": 2506,
+          "endOffset": 2620,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "compareFunction",
+      "ranges": [
+        {
+          "startOffset": 2855,
+          "endOffset": 2970,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "deterministicStringify",
+      "ranges": [
+        {
+          "startOffset": 2972,
+          "endOffset": 3808,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "deterministicDecirc",
+      "ranges": [
+        {
+          "startOffset": 3810,
+          "endOffset": 5317,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    },
+    {
+      "functionName": "replaceGetterValues",
+      "ranges": [
+        {
+          "startOffset": 5419,
+          "endOffset": 5929,
+          "count": 0
+        }
+      ],
+      "isBlockCoverage": false
+    }
+  ]
+}
