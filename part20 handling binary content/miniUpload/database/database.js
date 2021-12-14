@@ -3,11 +3,7 @@ import { Pool } from "https://deno.land/x/postgres@v0.13.0/mod.ts";
 const CONCURRENT_CONNECTIONS = 2;
 const connectionPool = new Pool({
 
-  hostname: "hattie.db.elephantsql.com",
-  database: "rtspbeet",
-  user: "rtspbeet",
-  password: "rCzJH5y1ZwfEPr6rOZ_3dsJxbBnjVroB",
-  port: 5432
+
 
 }, CONCURRENT_CONNECTIONS);
 
