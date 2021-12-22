@@ -1,0 +1,139 @@
+<% /* Adding to a list */ %>
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <script src="/static/code.js" defer></script>
+  </head>
+  <body>
+    <input type="text" id="text" />
+    <input type="button" onclick="addToList()" value="Add" /><br/>
+    <ul id="list"></ul>
+  </body>
+</html>
+
+
+
+<% /* Adding and removing one */ %>
+
+<% /* <!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <script src="/static/code.js" defer></script>
+  </head>
+  <body>
+    <h1 id="count">0</h1>
+    <input type="button" value="+" onclick="plusOne()" />
+    <input type="button" value="-" onclick="minusOne()" />
+  </body>
+</html> */ %>
+
+
+<% /* Fixing a counter */ %>
+
+<% /* <!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <script src="/static/code.js" defer></script>
+  </head>
+  <body>
+    <h1 id="title" onclick="incrementCount()">Hello world! You've clicked this text <span id="count">0</span> time(s).</h1>
+    <p>Welcome to my awesome page!</p>
+  </body>
+</html> */ %>
+
+
+<% /* Content from a javaScript file */ %>
+
+
+<% /* <!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <script src="/static/code.js" defer></script>
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="title">Hello world!</h1>
+      <p>Welcome to my awesome page!</p>
+      <ul id="list">
+        <li>First item, the rest will appear in a moment..</li>
+      </ul>
+    </div>
+  </body>
+</html> */ %>
+
+<% /* Adding a paragraph to a container */ %>
+
+<% /* <!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <script src="/static/code.js" defer></script>
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="title">Hello world!</h1>
+      <p>Welcome to my awesome page!</p>
+    </div>
+  </body>
+</html> */ %>
+
+<% /* Adding a paragraph to body */ %>
+
+<% /* <!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <script src="/static/code.js" defer></script>
+  </head>
+  <body>
+    <h1 id="title">Hello world!</h1>
+    <p>Welcome to my awesome page!</p>
+  </body>
+</html> */ %>
+
+<% /* Switching Content */ %>
+
+<% /* <!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <script src="/static/code.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <h1 id="title">Hello world!</h1>
+      <p id="text">Welcome to my awesome page!</p>
+    </div>
+  </body>
+</html> */ %>
+
+
+
+<% /* Hello JavaScript! */ %>
+
+<% /* <!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <script src="/static/code.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <h1 id="title">Hello world!</h1>
+      <p>Welcome to my awesome page!</p>
+    </div>
+  </body>
+</html> */ %>
